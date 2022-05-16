@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
   },
   "author": "",
   "license": "ISC",
